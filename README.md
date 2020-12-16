@@ -26,7 +26,11 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Mock up
+The following image shows the web application's appearance
 
+<div>
+    <img src="./assets/images/password.png" width="400px"/> 
+</div>
 
 ## Built With
 * HTML
@@ -35,6 +39,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Website
 
+https://anagha778.github.io/password-generator/
 
 ## Contribution
 Anagha Pawar
