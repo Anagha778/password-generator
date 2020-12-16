@@ -47,6 +47,34 @@ var acceptcharType = function()
   }  
 };
 
+//Function to generate password if length and character type crieteria met by user
+var generatePassword = function(){
+  var generatedPass = "";
+  var passLength = acceptLength();
+  if (parseInt(passLength)!==1){
+
+      while (passLength===0){
+        passLength = acceptLength();
+      }
+  }
+  if (parseInt(passLength)!==1)
+  {
+    var passStr = acceptcharType();
+    if (parseInt(passStr)!==1)
+    {
+      while(passStr===0){
+        passStr = acceptcharType();
+      }
+      //Generate a random number to pick random character from charater type string
+      for (var cnt = 0; cnt < passLength; cnt++) { 
+        var getPos = Math.floor(Math.random() * passStr.length ); 
+        var generatedPass =  generatedPass + passStr.charAt(getPos);
+      }  
+    } 
+  } 
+return generatedPass; //return generated password string
+};
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
