@@ -1,6 +1,6 @@
 # Password generator application
 
-## Purpose
+## Purpose of application:
 Employees can use this website to generate a random password based on criteria they’ve selected. This application will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 ## User Story

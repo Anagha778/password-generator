@@ -6,7 +6,6 @@ var acceptLength = function()
 { //alphabates and special characters validation
   var formatStr = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
  
-  debugger;
   //Provide prompt to user to enter password length
   var promptLength = window.prompt("Please enter length of the password, length can be between 8 to 128 characters");
 
@@ -23,7 +22,7 @@ var acceptLength = function()
     return 0;
   }
 
-  return promptLength;
+  return promptLength; // return user entered length
 };
 
 
@@ -38,6 +37,7 @@ var acceptcharType = function()
    return 1;
   }
 
+  //Provide choice to user to select character types for password
   switch (parseInt(promptcharType)){
     case 1:
       var promptPassStr = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
