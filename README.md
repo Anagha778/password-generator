@@ -3,6 +3,15 @@
 ## Purpose of application:
 Employees can use this website to generate a random password based on criteria they’ve selected. This application will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
+## Description:
+User Interface will have generate password button. On click of button user will be prompted to enter length of password. User can enter number between 8-128, anything else will be rejected. On click of Cancel button user will come out of application and can start again.
+
+Once user enters valid password length, a prompt to choose character types for password will be shown. User will have 2 options, 
+1: Combination of Lowercase, uppercase characters and numbers
+2: Combination of Lowercase, uppercase characters, numbers and special characters (!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~)
+User can enter 1 or 2, anything else will be rejected.
+Once user enters valid length and character type option, application will generate random password satisfying user crieteria and will be displayed in the textarea provided in the user Interface.
+
 ## User Story
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
